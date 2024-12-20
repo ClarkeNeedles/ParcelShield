@@ -5,6 +5,7 @@
 
 ## Functionality
 ### Hardware:
+ - Arduino as the brains of the device
  - 3D printed box to store the packages in
  - FSR to detect that a package is placed
  - Keypad that is used by the delivery driver in order to open the box
@@ -12,6 +13,7 @@
  - Buzzer that will sound if a package is stolen without authorization
 
 ### Software:
+ - MQTT broker (HiveMQ) used as communication between Arduino and Flutter
  - Flutter Web App that generates OTPs
  - Enter the OTP into the delivery website so that the delivery driver can open the box and place the package
  - Web app was hosted using firebase
