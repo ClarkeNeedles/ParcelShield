@@ -1,10 +1,10 @@
 # ParcelShield
 
-## Description:
+## Description
  Anti-theft package storage system to combat against porch pirates
 
 ## Functionality
-### Hardware:
+### Hardware
  - Arduino as the brains of the device
  - 3D printed box to store the packages in
  - FSR to detect that a package is placed
@@ -12,7 +12,7 @@
  - Key fob that is used by the admin to open the box a retrieve package
  - Buzzer that will sound if a package is stolen without authorization
 
-### Software:
+### Software
  - MQTT broker (HiveMQ) used as communication between Arduino and Flutter
  - Flutter Web App that generates OTPs
  - Enter the OTP into the delivery website so that the delivery driver can open the box and place the package
